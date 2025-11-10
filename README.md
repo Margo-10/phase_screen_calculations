@@ -96,14 +96,14 @@ Screenshots of the interface:
 
 - Initial GUI (screenshots/start.png):  
 
-  (Shows parameter inputs and "RUN SIMULATION" button)
+  Shows parameter inputs and "RUN SIMULATION" button
 
 - During Run (screenshots/running.png):
 
-  (Progress bar and status messages)
+  Progress bar and status messages
 
 - Results (screenshots/results.png):
 
-  (Displays S4, errors, warnings, etc. in the text box)
+  Displays S4, errors, warnings, etc. in the text box
 
 For reproducibility, set `np.random.seed(42)` in `phase_screen_generator.py`.
