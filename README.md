@@ -8,19 +8,19 @@ This software simulates the propagation of radio waves through ionosphere using 
 
 ## Dependencies
 
-- Python 3.8+
+- Python 3.12.3
 
 - Required packages (see requirements.txt):
 
-  - numpy>=1.26.0
+  - numpy==1.26.4
 
-  - scipy>=1.14.0
+  - SciPy==1.16.2
 
-  - matplotlib>=3.9.0
+  - matplotlib==3.10.7
 
-  - pyproj>=3.6.1
+  - PyIRI==0.1.3
 
-  - PyIRI>=1.0.1
+  - pyproj==3.7.2
 
 ## Installation
 
