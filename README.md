@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This software simulates the propagation of radio waves through ionosphere using the phase screen method. It calculates the scintillation index (S4), integrating electron density profiles from the International Reference Ionosphere (IRI) model via PyIRI. The simulation supports various Power Spectral Density (PSD) models: Gaussian, von Karman, and Shkarofsky. Key features include adaptive phase screen placement weighted by electron density, validation conditions for simulation accuracy (e.g., grid resolution and thin-screen approximations), and a graphical user interface (GUI) for parameter input and result visualization.
+This software implements a **one-dimensional (1D) phase screen model** for simulating the propagation of radio waves through a turbulent ionosphere along the **z-direction**. The transverse spatial dimension is represented by a **1D grid along the x-axis**, and the turbulence is modeled using **one-dimensional Power Spectral Density (PSD)** functions of spatial frequency \( k_x \). The model uses split-step Fourier method for forward propagation between phase screens. It calculates the scintillation index (S4), integrating electron density profiles from the International Reference Ionosphere (IRI) model via PyIRI. The simulation supports various Power Spectral Density (PSD) models: Gaussian, von Karman, and Shkarofsky. Key features include adaptive phase screen placement weighted by electron density, validation conditions for simulation accuracy (e.g., grid resolution and thin-screen approximations), and a graphical user interface (GUI) for parameter input and result visualization.
 
 
 
