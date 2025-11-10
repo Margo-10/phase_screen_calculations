@@ -84,12 +84,20 @@ To demonstrate functionality, run with default parameters:
 
 Expected output (approximate, due to randomness):
 
-- Path length (z_len): 202.3 km
+- Frequency: 1000.0 MHz
 
-- S4: ~0.123 (weak scintillation)
+- S4: ~0.125 (weak scintillation)
 
-- Mean max dφ: 0.213 rad 
+- dφ_max: 0.217 rad (average for all implementations)
 
+- n_runs: 1000 (number of implementations)
+
+- number_of_screens: 16
+
+- z_len: 202.3 km (path length)
+
+- max dz: 20117.0 m (max dz from the entire path for all implementations)
+  
 - Warnings: None if conditions met
 
 Screenshots of the interface:
