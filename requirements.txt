@@ -1,0 +1,5 @@
+numpy==1.26.4
+SciPy==1.16.2
+matplotlib==3.10.7
+PyIRI==0.1.3
+pyproj==3.7.2
