@@ -28,19 +28,19 @@ This software implements a **phase screen model** for simulating the propagation
 
 2. Create and activate a virtual environment:  
 
-   - `python -m venv venv`  
+   - `python3 -m venv venv`  
 
    - Linux/Mac: `source venv/bin/activate`  
 
    - Windows: `venv\Scripts\activate`
 
-3. Install dependencies: `pip install -r requirements.txt`
+3. Install dependencies: `pip3 install -r requirements.txt`
 
-4. Run the GUI: `python test.py`
+4. Run the GUI: `python3 test.py`
 
 ## Usage
 
-- Launch the application: `python test.py`
+- Launch the application: `python3 test.py`
 
 - Input parameters in the GUI:
 
